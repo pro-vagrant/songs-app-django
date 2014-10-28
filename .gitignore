@@ -1,0 +1,8 @@
+*.py[cod]
+*.pyc
+
+/.vagrant/
+/.idea/
+/nbproject/
+.DS_Store
+
