@@ -5,11 +5,11 @@ How to run the application?
 
 Clone the repo:
 
-    $ git clone https://github.com/pro-vagrant/songs-django-app.git
+    $ git clone https://github.com/pro-vagrant/songs-app-django.git
 
 Enter the directory:
 
-    $ cd songs-django-app
+    $ cd songs-app-django
 
 Boot VM:
 
