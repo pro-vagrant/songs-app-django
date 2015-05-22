@@ -1,8 +1,8 @@
 Vagrant.configure(2) do |config|
-  config.vm.box = "django-v0.2.4"
-  config.vm.box_url = "http://boxes.gajdaw.pl/django/django-v0.2.4.box"
+  config.vm.box = "django-v1.0.0"
+  config.vm.box_url = "http://boxes.gajdaw.pl/django/django-v1.0.0.box"
   config.vm.box_download_checksum_type = "sha256"
-  config.vm.box_download_checksum = "86637c21234ce0f4a563f665dba16776346299ebd59674a68328ff93f626404a"
+  config.vm.box_download_checksum = "320d9bf2f41db4c80ffaa19016e4ab434f1eae0a8cc6067fde530b2cee52ccb2"
   config.vm.network :forwarded_port, guest: 8000, host: 8000, host_ip: "127.0.0.1"
 
 $script = <<SCRIPT
