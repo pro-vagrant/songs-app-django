@@ -6,3 +6,5 @@
 /nbproject/
 .DS_Store
 
+songs/db.sqlite3
+
